@@ -1,0 +1,32 @@
+.input-ex-wrapper {
+  position: relative;
+  display: block;
+}
+.input-ex-wrapper input,
+.input-ex-wrapper textarea {
+  border: none;
+  padding: 0 10px;
+}
+.input-ex-wrapper .label-wrapper {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  z-index: 1;
+  transition: all .2s;
+}
+.input-ex-wrapper .label-wrapper.active {
+  top: -2em;
+}
+.input-ex-wrapper .label-wrapper span {
+  margin-left: .5em;
+}
+.input-ex-wrapper .cancel-btn {
+  cursor: pointer;
+  display: none;
+}
+.input-ex-wrapper .cancel-btn.active {
+  display: initial;
+}
+.input-ex-wrapper .cancel-btn:hover {
+  color: gainsboro;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webパーツ拡張 -input/textarea-</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/input-ex.min.css">
+  <link rel="stylesheet" href="css/common.min.css">
+</head>
+<body>
+
+  <div class="contents-wrapper">
+    <h1>Webパーツ拡張 -input/textarea-</h1>
+    <p>
+      <a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome<i class="fas fa-external-link-alt ml4 mr4"></i></a>を使用しています。
+    </p>
+    <p>
+      入力するとラベルの右側に<i class="far fa-times-circle ml4 mr4"></i>が現れます。<br>
+      <i class="far fa-times-circle mr4"></i>を押すと入力内容が消去されます。<br>
+    </p>
+    <div class="form">
+      <div class="form-item">
+        <input type="text" name="input-ex1" maxlength="10" id="input-ex1" class="input-ex" label-text="input1(10)">
+      </div>
+      <div class="form-item">
+        <input type="text" name="input-ex2" maxlength="15" id="input-ex2" class="input-ex" label-text="input2(15)">
+      </div>
+      <div class="form-item">
+        <input type="text" name="input-ex3" id="input-ex3" class="input-ex" label-text="input3(free)">
+      </div>
+      <div class="form-item">
+        <textarea name="input-ex4" id="input-ex4" class="input-ex" label-text="input4(textarea)"></textarea> 
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/input-ex.min.js"></script>
+  <script src="js/common.min.js"></script>
+</body>
+</html>
