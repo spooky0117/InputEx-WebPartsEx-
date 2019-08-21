@@ -14,24 +14,21 @@
   <div class="contents-wrapper">
     <h1>Webパーツ拡張 -input/textarea-</h1>
     <p>
-      <a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome<i class="fas fa-external-link-alt ml4 mr4"></i></a>を使用しています。
-    </p>
-    <p>
-      入力するとラベルの右側に<i class="far fa-times-circle ml4 mr4"></i>が現れます。<br>
-      <i class="far fa-times-circle mr4"></i>を押すと入力内容が消去されます。<br>
+      入力するとラベルの右側に<span class="ml4 mr4">x</span>が現れます。<br>
+      <span class="mr4">x</span>を押すと入力内容が消去されます。<br>
     </p>
     <div class="form">
       <div class="form-item">
-        <input type="text" name="input-ex1" maxlength="10" id="input-ex1" class="input-ex" label-text="input1(10)">
+        <input type="text" name="input1" id="input1" class="input-ex" data-label-text="normal">
       </div>
       <div class="form-item">
-        <input type="text" name="input-ex2" maxlength="15" id="input-ex2" class="input-ex" label-text="input2(15)">
+        <input type="text" name="input2" id="input2" class="input-ex" data-label-text="data-label-fixed='true'" data-label-fixed="true">
       </div>
       <div class="form-item">
-        <input type="text" name="input-ex3" id="input-ex3" class="input-ex" label-text="input3(free)">
+        <input type="text" name="input3" id="input3" class="input-ex" data-label-text="data-cancel-btn='false'" data-cancel-btn="false">
       </div>
       <div class="form-item">
-        <textarea name="input-ex4" id="input-ex4" class="input-ex" label-text="input4(textarea)"></textarea> 
+        <textarea name="textarea" id="textarea" class="input-ex" data-label-text="textarea"></textarea> 
       </div>
     </div>
   </div>
