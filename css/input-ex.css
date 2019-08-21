@@ -6,6 +6,7 @@
 .input-ex-wrapper textarea {
   border: none;
   padding: 0 10px;
+  background: transparent;
 }
 .input-ex-wrapper input::-ms-clear {
   visibility: hidden;
